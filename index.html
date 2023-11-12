@@ -22,7 +22,7 @@
             </ul>
         </div>
     </nav>
-
+    
     <nav id="hamburger-nav">
         <div class="logo">Cinjo Jose</div>
         <div class=hamburger-menu>
@@ -38,28 +38,62 @@
             </div>
         </div>
     </nav>
-<section id="profile">
-    <div class="section__pic-container">
-        <img src="./asset/profile-pic-2.png" alt="Cinjo jose profile picture"/>
-    </div>
-    <div class="section__text">
-        <p class="section__text_p1">Hello, I'm</p>
-        <h1 class="title">Cinjo jose</h1>
-        <p class="section__text_p2">Developer</p>
-        <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('./asset/resume-example.pdf')">
-                 Download CV
-            </button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./asset/profile-pic-2.png" alt="Cinjo jose profile picture"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text_p1">Hello, I'm</p>
+            <h1 class="title">Cinjo jose</h1>
+            <p class="section__text_p2">Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./asset/resume-example.pdf')">
+                     Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
                  Contact Info
-            </button>
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="./asset/linkedin.png" alt="Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/cinjo-jose/'">
+                <img src="./asset/github.png" alt="Github Profile" class="icon" onclick="location.href='https://github.com/urbnpharaoh'">
+            </div>
         </div>
-        <div id="social-container">
-            <img src="./asset/linkedin.png" alt="Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/cinjo-jose/'">
-            <img src="./asset/github.png" alt="Github Profile" class="icon" onclick="location.href='https://github.com/urbnpharaoh'">
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container"> 
+            <div class="section__pic-container">
+                <img src="./asset/about-pic.png" 
+                alt="Profile Picture" 
+                class="about-pic">
         </div>
-    </div>
+        <div class="about-details-container">  
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./asset/experience.png" alt="exp icon" class="icon">
+                    <h3>Experience</h3>
+                    <p>1+ years <br> Web Development </p>
+                </div>
+                <div class="details-container">
+                    <img src="./asset/education.png" alt="education icon" class="icon">
+                    <h3>Education</h3>
+                    <p>B.tech<br> Bachelors degree</p>
+                </div>
+                <div class="text-container">
+                    <p>Welcome to my portfolio! I'm a recent graduate with a strong command of 
+                        C, HTML, CSS, and JavaScript. As a dedicated team player, I bring excellent 
+                        problem-solving skills to the table. Explore my projects and discover how I 
+                        blend technical expertise with a collaborative spirit to create innovative 
+                        solutions.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./asset/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'">
 </section>
+
 </nav><script src="script.js"></script>
 </body>
 </html> 
